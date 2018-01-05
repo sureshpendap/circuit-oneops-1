@@ -101,27 +101,27 @@ class SolrMBeanSummaryStats
                 "category=SEARCHER,scope=searcher,name=maxDoc" =>
                     ["Value"],
                 "category=ADMIN,scope=/admin/segments,name=requests" =>
-                    ["Count"],
-                "category=INDEX,name=major.deletedDocs,scope=merge" =>
-                    ["Count,OneMinuteReate,FiveMinuteRate,FifteenMinuteRate"],
-                "category=INDEX,name=major.running.segments,scope=merge" =>
-                    ["Value"],
-                "category=INDEX,name=major.docs,scope=merge" =>
-                    ["Count,OneMinuteReate,FiveMinuteRate,FifteenMinuteRate"],
-                "category=INDEX,name=major,scope=merge" =>
-                    ["Count,OneMinuteReate,FiveMinuteRate,FifteenMinuteRate"],
-                "category=INDEX,name=major.running.docs,scope=merge" =>
-                    ["Value"],
-                "category=INDEX,name=minor.running,scope=merge" =>
-                    ["Value"],
-                "category=INDEX,name=minor.running.segments,scope=merge" =>
-                    ["Value"],
-                "category=INDEX,name=minor,scope=merge" =>
-                    ["Count, OneMinuteReate, FiveMinuteRate, FifteenMinuteRate"],
-                "category=INDEX,name=minor.running.docs,scope=merge" =>
-                    ["Value"],
-                "category=INDEX,name=minor.running,scope=merge" =>
-                    ["Value"],
+                    ["Count"]
+                # "category=INDEX,name=major.deletedDocs,scope=merge" =>
+                #     ["Count,OneMinuteReate,FiveMinuteRate,FifteenMinuteRate"],
+                # "category=INDEX,name=major.running.segments,scope=merge" =>
+                #     ["Value"],
+                # "category=INDEX,name=major.docs,scope=merge" =>
+                #     ["Count,OneMinuteReate,FiveMinuteRate,FifteenMinuteRate"],
+                # "category=INDEX,name=major,scope=merge" =>
+                #     ["Count,OneMinuteReate,FiveMinuteRate,FifteenMinuteRate"],
+                # "category=INDEX,name=major.running.docs,scope=merge" =>
+                #     ["Value"],
+                # "category=INDEX,name=minor.running,scope=merge" =>
+                #     ["Value"],
+                # "category=INDEX,name=minor.running.segments,scope=merge" =>
+                #     ["Value"],
+                # "category=INDEX,name=minor,scope=merge" =>
+                #     ["Count, OneMinuteReate, FiveMinuteRate, FifteenMinuteRate"],
+                # "category=INDEX,name=minor.running.docs,scope=merge" =>
+                #     ["Value"],
+                # "category=INDEX,name=minor.running,scope=merge" =>
+                #     ["Value"],
 
             },
             "avg_aggr_metrics" => {
