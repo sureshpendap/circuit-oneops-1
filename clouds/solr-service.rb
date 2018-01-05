@@ -8,7 +8,7 @@ auth 'solrsecretkey'
 service 'solr-service',
         :description => 'Solr custom configuration',
         :cookbook => 'solr-service',
-        :source => Chef::Config[:register],
+        :source => [Chef::Config[:register], Chef::Config[:version].split(".").first].join('.'), 
         :provides => {:service => 'solr-service'},
         :attributes => {
             :solr_custom_params => '{
